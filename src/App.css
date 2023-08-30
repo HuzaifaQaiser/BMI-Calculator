@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(13, 45, 45);
+}
+
+.container1 {
+    background-color: rgb(31, 181, 181);
+    width: 50%;
+    margin: 5% 0 0 25%;
+    text-align: center;
+    border-radius: 100px;
+}
+
+.heading {
+    padding: 5% 2% 5% 2%;
+}
+
+.result {
+    margin: 7% 0 0 0;
+}
+
+@media screen and (max-width:450px) {
+    .container1 {
+        width: 90%;
+        margin: 20% 4% 0 4%;
+        text-align: center;
+        border-radius: 50px;
+        padding: 2%;
+    }
+
+    .heading {
+        font-size: 25px;
+    }
+}
